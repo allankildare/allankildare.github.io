@@ -1,0 +1,75 @@
+* {
+    font-family: 'Rokkitt', serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CCC;
+}
+
+.container {
+    background-color: #f1f1f1;
+    margin: 100px auto;
+    width: 650px;
+    height: 410px;
+    border-radius: 10px;
+    border: 1px solid #555;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.construction h1 {
+    font-size: 34px;
+    text-align: center;
+    margin: 0;
+}
+
+.construction img {
+    width: 240px;
+}
+
+.github {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.github h2, p, a {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.github a {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.github a:visited {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.github a:hover {
+    color: #111;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.github a:active {
+    transition: 0.3s;
+    color: darkorchid;
+}
+
+.github img {
+    width: 70px;
+    border-radius: 50%;
+}
