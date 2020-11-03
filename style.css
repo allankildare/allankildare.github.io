@@ -1,52 +1,59 @@
 :root { /* Se refere a um elemento raiz do HTML inteiro */
     /* Variáveis CSS */
-    --color-background: #0E0E0E;
+    --color-background: linear-gradient(135deg, rgba(29,29,29,1) 0%, rgba(48,48,48,1) 100%);
     --color-header: #000000;
     --color-nav-links: #F5F5F5;
     --color-nav-links-hover: #e0e0e0;
     --color-presentation:rgba(14, 14, 14, .8);
+
+    font-size: 62.5%; /* 10px */
 }
 
 * {
-    font-family: 'Raleway', sans-serif;;
-}
-html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
-    background-color: var(--color-background);
-    color: #FFF
-}
+    background: rgb(29,29,29);
+    background: var(--color-background);
+    color: #FFF;
+} 
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    background: var(--color-background)
+    background-color: rgb(20, 20, 20);
+    padding: 7px 0 7px;
 }
 
 .header a {
-    font-size: 1.21em;
+    font-size: 1.8em;
+    font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--color-nav-links);
     margin-right: 15px;
 }
 
+.header a:nth-child(3n) {
+    margin-right: 35px;
+}
+
 .header a:hover {
     transition: 0.2s;
     color: var(--color-nav-links-hover);
+    text-decoration: underline;
 }
 
-.header h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.9em;
-    font-weight: 500;
-    margin-left: 15px;
+.logo img {
+    width: 90px;
 }
+
 .hello-world {
     display: flex;
     align-items: center;
@@ -60,6 +67,7 @@ body {
     background-position: center center;
     background-size: cover;
 }
+
 .presentation {
     display: flex;
     flex-direction: column;
@@ -69,23 +77,63 @@ body {
     border-radius: 10px;
 }
 
-.presentation:hover {
-    transition: 0.2s;
-    border-bottom: 3px solid var(--color-nav-links-hover);
-}
-
 .presentation h1 {
-    font-size: 2.2em;
+    font-size: 3em;
     font-weight: 700;
     margin: 10px;
 }
 
 .presentation h2 {
-    font-size: 1.6em;
+    font-size: 2em;
     font-weight: 500;
     margin: 0 0 0 10px;
 }
 
-p {
+.about-me {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.text h2 {
+    font-size: 2.6em;
+    font-weight: 800;
     text-align: center;
+    margin: 10px; 
+}
+
+.text {
+    margin: 0 20px 0 20px;
+}
+
+
+.profile-photo img {
+    border-top: 2.5px solid rgba(255, 255, 255, .6);
+    border-left: 2.5px solid rgba(255, 255, 255, .6);
+    padding: 5px 0 0 5px; 
+    margin-top: 10px;
+}
+
+.profile-photo img:hover {
+    transition: .2s;
+    border-top: 2.5px solid rgb(255, 74, 74);
+    border-left: 2.5px solid rgb(255, 74, 74);
+}
+
+.text p {
+    letter-spacing: 0.5px;
+    font-size: 1.6em;
+}
+
+.text a, .text a:visited {
+    color: #FFF;
+}
+
+.text a:hover {
+    transition: .2s;
+    color: #b0b0b0;
+}
+
+.fa-linkedin, .fa-github {
+    margin-right: 40px;
 }
