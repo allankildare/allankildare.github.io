@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <script src="https://kit.fontawesome.com/ea399319a5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="./style.css">
     <title>Allan Kildare</title>
 
 </head>
 <body>
     <div class="container">
+        <!-- header desktop -->
         <header class="header">
             <div class="logo">
                 <img src="./images/logo.png" alt="Logotipo">
@@ -23,37 +24,48 @@
                 <a href="#">Contato</a>
             </nav>
         </header>
+
+        <!-- header mobile -->
+        <header class="mobile-header">
+            <nav class="mobile-navbar">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="Logotipo">
+                </div>
+            </nav>
+        </header>
         <main>
             <div class="hello-world">
                 <div class="presentation">
-                    <h1>Desenvolvedor Front-end</h1>
-                    <h2>Allan Kildare</h2>
+                    <h2>Olá, eu sou</h2>
+                    <h1>Allan <p>Kildare</p></h1>
+                    <h3>Front-End Developer</h3>
                 </div>
             </div>
-            <section class="container">
-                <div class="about-me">
-                    <div class="profile-photo">
-                        <img src="https://avatars3.githubusercontent.com/u/50001206?s=460&u=8194e2477b75429a95469c3df3544fefb5709e2a&v=4" alt="Foto de Allan Kildare">
-                    </div>
-                    <div class="text">
-                        <h2>Sobre mim</h2>
-                        <p>Me chamo Allan Kildare, sou desenvolvedor front-end e é um prazer que esteja em meu site.
-                        Atualmente trabalho utilizando HTML, CSS, JavaScript e tenho experiência com as bibliotecas ReactJS e Vue.js.
-                        Comecei a estudar o mundo do desenvolvimento web com apenas 12 anos de idade, começando pelo HTML e, posteriormente, 
-                        o CSS, nesses últimos 6 anos não parei de estudar a área e agora, com 18 anos, me sinto preparado para entrar no mercado de trabalho.
-                        <br>
-                        <br>
-                        Sou estudante de Ciência da Computação na Universidade Federal do Rio de Janeiro, me interesso por diversos
-                        assuntos que envolvem o mundo da computação e completamente apaixonado por tudo que a cerca. Entrar nessa universidade foi
-                        um sonho que se realizou. 
-                        <br>
-                        <br>
-                        Em setembro de 2020 fui selecionado para o curso intensivo da <strong>Resilia Educação</strong>, com foco em 
-                        <strong>desenvolvimento web fullstack</strong>, o que, além de ser um prazer para eu, tem me ajudado a entender melhor o mundo 
-                        do desenvolvimento back-end e desenvolver melhor as soft skills, me ajudando cada vez mais a melhorar meu currículo para o mercado 
-                        de trabalho.
-                        </p>
-                        <br>
+            <!-- about me section -->
+            <section class="about-me">
+                <div class="profile-photo">
+                    <img src="https://avatars3.githubusercontent.com/u/50001206?s=460&u=8194e2477b75429a95469c3df3544fefb5709e2a&v=4" alt="Foto de Allan Kildare">
+                </div>
+                <div class="text">
+                    <h2 class="section-title">Sobre o dev</h2>
+                    <p>Me chamo Allan Kildare, sou desenvolvedor front-end e é um prazer que esteja em meu site.
+                    Atualmente trabalho utilizando HTML, CSS, JavaScript e tenho experiência com as bibliotecas ReactJS e Vue.js.
+                    Comecei a estudar o mundo do desenvolvimento web com apenas 12 anos de idade, começando pelo HTML e, posteriormente, 
+                    o CSS, nesses últimos 6 anos não parei de estudar a área e agora, com 18 anos, me sinto preparado para entrar no mercado de trabalho.
+                    <br>
+                    <br>
+                    Sou estudante de Ciência da Computação na Universidade Federal do Rio de Janeiro, me interesso por diversos
+                    assuntos que envolvem o mundo da computação e completamente apaixonado por tudo que a cerca. Entrar nessa universidade foi
+                    um sonho que se realizou. 
+                    <br>
+                    <br>
+                    Em setembro de 2020 fui selecionado para o curso intensivo da <em>Resilia Educação</em>, com foco em 
+                    <em>desenvolvimento web fullstack</em>, o que, além de ser um prazer para eu, tem me ajudado a entender melhor o mundo 
+                    do desenvolvimento back-end e desenvolver melhor as soft skills, me ajudando cada vez mais a melhorar meu currículo para o mercado 
+                    de trabalho.
+                    </p>
+                    <br>
+                    <div class="social-media">
                         <a href="https://www.linkedin.com/in/allankildare/" target="_blank">
                             <i class="fab fa-linkedin fa-3x" title="Visite meu perfil no LinkedIn"></i>
                         </a>
@@ -65,23 +77,144 @@
                         <a href="https://stackoverflow.com/users/14439066/allankildare" target="_blank">
                             <i class="fab fa-stack-overflow fa-3x" title="Visite meu perfil no StackOverflow"></i>
                         </a>
-                        
                     </div>
                 </div>
             </section>
+
+            <!-- skills section -->
+            <section class="skills">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="skill-boxes">
+                    <div class="skill-box">
+                        <i class="fab fa-html5 fa-7x"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-css3-alt fa-7x"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-js fa-7x"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-react fa-7x"></i>
+                        <h3>ReactJS</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-wordpress fa-7x"></i>
+                        <h3>WordPress</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-git fa-7x"></i>
+                        <h3>Git</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-github fa-7x"></i>
+                        <h3>GitHub</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- education section -->
+            <section class="education">
+                <h2 class="section-title">Educação</h2>
+                <div class="phrase">
+                    <p>"Educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo."</p>
+                    <p>Paulo Freire</p>
+                </div>
+                <div class="academic-education">
+                    <h3>Formação Acadêmica</h3>
+                    <div>
+                        <h4>Universidade Federal do Rio de Janeiro (UFRJ)</h4>
+                        <span>Bacharelado em Ciência da Computação</span>
+                        <br>
+                        <span class="year">2020 - 2025</span>
+                        <p>Estou atualmente cursando o 1° período de Ciência da computação em uma das melhores universidades da América Latina.
+                            Devo isso ao SiSU, que me possibilitou entrar nessa universidade com a nota do ENEM.</p>
+                    </div>
+                        
+                    <br>
+
+                    <div>
+                        <h4>Colégio Qi</h4>
+                        <span>Ensino Médio Regular</span>
+                        <br>
+                        <span class="year">2017 - 2019</span>
+                        <p>O Colégio Qi me ajudou não apenas em meu pré-vestibular, também me ajudou a crescer como secundarista e pessoa.
+                            Lá tive a oportunidade de participar de olímpiadas, trabalhos, peças de teatro, voluntariado e ainda fui representante de turma no 3° ano. Sou grato de ter sido bolsista
+                            integral nessa instituição, já que vim originalmente da rede pública de ensino.
+                        </p>
+                    </div>
+
+                    <h3>Cursos e aperfeiçoamentos</h3>
+
+                    <div>
+                        <h4>Resilia Educação</h4>
+                        <span>Desenvolvimento Web Fullstack</span>
+                        <br>
+                        <span class="year">2020 - 2021</span>
+                        <p>Curso que tem por objetivo formar profissionais preparados tanto nas <em>hard skills</em> quanto nas <em>soft skills</em>. Estou atualmente explorando mais o desenvolvimento do back-end e desenvolvendo minha inteligência emocional.</p>
+                    </div>
+                        
+                    <br>
+
+                    <div>
+                        <h4>Instituto Federal do Rio Grande do Norte</h4>
+                        <span>Programação Web</span>
+                        <br>
+                        <span class="year">2020 - 2020</span>
+                        <p>Curso EaD que me ajudou a desenvolver a habilidade da modelagem de banco de dados, programação com JavaScript,
+                            uso do Linux, instalação de servidores, boas práticas de design web e nos princípios do design gráfico. Colaborando também com o estudo da psicologia
+                            por trás do comportamento dos usuários.
+                        </p>
+                    </div>
+
+                    <h3>Idiomas</h3>
+
+                    <div>
+                        <h4>Inglês</h4>
+                        <span>Avançado</span>
+                    </div>
+                        
+                    <br>
+
+                    <div>
+                        <h4>Espanhol</h4>
+                        <span>Intermediário</span>
+                    </div>
+                </div>
+            </section>
+            <!-- contact -->
+            <section class="contact" style="padding-top: 80px;">
+                <h3 class="section-title">Entre em contato</h3>
+                <p>Quer conversar comigo? Mande uma mensagem e responderei o mais rápido possível</p>
+                <form action="">
+                    <div class="label-div">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="nameInput" placeholder="Seu nome">
+                    </div>
+                    <div class="label-div">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="emailInput" placeholder="Seu e-mail">
+                    </div>
+                    <div class="label-div">
+                        <label for="phone">Telefone ou celular</label>
+                        <input type="text" name="phone" id="phoneInput" placeholder="DDD + número">
+                    </div>
+                    <div class="label-div">
+                        <label for="message">Sua mensagem</label>
+                        <textarea name="message" id="messageArea" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" class="submit-button">
+                </form>
+            </section>
+            <!-- footer -->
+            <footer class="footer">
+                <p class="footer-text">Feito com <i class="fas fa-heart"></i> por <a href="https://github.com/allankildare" target="_blank">Allan Kildare</a></p>
+                <p class="footer-copyright">&copy; 2020</p>
+            </footer>
         </main>
-        <!-- <div class="construction">
-            <img src="/images/worker.png" alt="">
-            <h1>Site em construção</h1>
-        </div>
-        <div class="github">
-            <img src="https://avatars3.githubusercontent.com/u/50001206?s=460&u=8194e2477b75429a95469c3df3544fefb5709e2a&v=4" alt="Foto de perfil do GitHub">
-            <div class="github-text">
-                <h2>Que tal dar uma olhadinha no meu GitHub?</h2>
-                <p>Lá você pode dar uma olhadinha nos repositórios disponíveis</p>
-                <a href="https://github.com/allankildare">Acessar GitHub</a>
-            </div>
-        </div> -->
     </div>
 </body>
 </html>
