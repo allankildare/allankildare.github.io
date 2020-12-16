@@ -126,6 +126,7 @@ body {
 
 .text a, .text a:visited {
     color: #FFF;
+    text-decoration: none;
 }
 
 .text a:hover {
