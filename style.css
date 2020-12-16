@@ -6,7 +6,7 @@
     --color-nav-links-hover: #e0e0e0;
     --color-presentation:rgba(14, 14, 14, .6);
     --orange-text: rgb(219, 167, 54);
-    --section-padding-top: 80px;
+    --section-padding-top: 240px;
 
     font-size: 62.5%; /* 10px */
 }
@@ -119,17 +119,20 @@ body {
 }
 
 .text p {
-    letter-spacing: .6px;
+    letter-spacing: .7px;
     font-size: 1.8em;
-    text-overflow: ellipsis;
 }
 
-.text a, .text a:visited {
+.social-media a {
+    font-size: 36px;
+}
+
+.social-media a, .social-media a:visited {
     color: #FFF;
     text-decoration: none;
 }
 
-.text a:hover {
+.social-media a:hover {
     transition: .2s;
     color: #b0b0b0;
 }
@@ -217,7 +220,8 @@ body {
 
 /* contact section */
 .contact {
-    padding: 20px 20px 0 20px;
+    padding: 40px 20px 0 20px;
+    margin-bottom: 40px;
 }
 
 .contact p {
@@ -227,6 +231,28 @@ body {
     color: #c9c9c9;
 }
 
+.contact p.contact-text {
+    font-size: 1.8em;
+    margin: 25px 0 0 0;
+}
+
+.contact a.email {
+    color: #F2F2F2;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: 2px 1px 4px rgba(95, 95, 95, .6);
+}
+
+.contact .social-media {
+    padding-top: 10px;
+}
+
+.contact .fa-linkedin, .contact .fa-github {
+    font-size: 1.2em;
+}
+
+/* formulario
 .label-div {
     display: flex;
     flex-direction: column;
@@ -276,6 +302,7 @@ body {
     border: none;
     border-radius: 10px;
 }
+*/
 
 /* footer */
 .footer {
@@ -317,16 +344,15 @@ body {
     }
 
     .profile-photo img {
-        border-top: 2.5px solid rgba(255, 255, 255, .6);
-        border-left: 2.5px solid rgba(255, 255, 255, .6);
-        padding: 5px 0 0 5px; 
-        margin-top: 10px;
+        margin-right: 20px;
     }
-    
-    .profile-photo img:hover {
-        transition: .2s;
-        border-top: 2.5px solid rgb(255, 74, 74);
-        border-left: 2.5px solid rgb(255, 74, 74);
+
+    .section-title {
+        font-size: 3.2em;
+    }
+
+    .skills h2, .education h2 {
+        padding-top: 50px;
     }
 
     /* header */
