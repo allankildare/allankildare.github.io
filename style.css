@@ -6,7 +6,7 @@
     --color-nav-links-hover: #e0e0e0;
     --color-presentation:rgba(14, 14, 14, .6);
     --orange-text: rgb(219, 167, 54);
-    --section-padding-top: 240px;
+    --section-padding-top: 75px;
 
     font-size: 62.5%; /* 10px */
 }
@@ -119,7 +119,7 @@ body {
 }
 
 .text p {
-    letter-spacing: .7px;
+    letter-spacing: 1.6px;
     font-size: 1.8em;
 }
 
