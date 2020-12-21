@@ -6,6 +6,7 @@
     
     
     <script src="https://kit.fontawesome.com/ea399319a5.js" crossorigin="anonymous"></script>
+    <script src="./script/formValidation.js" defer></script>
 
     <link rel="stylesheet" href="./style.css">
     <title>Allan Kildare</title>
@@ -221,7 +222,7 @@
 
                     <div class="label-div">
                         <label for="phone">Telefone ou celular
-                            <input type="text" name="phone" id="phoneInput" placeholder="DDD + número">
+                            <input type="text" name="phone" id="phoneInput" placeholder="(DDD) + número">
                         </label>
                     </div>
 
@@ -230,6 +231,7 @@
                             <textarea name="message" id="messageArea" cols="30" rows="10"></textarea>
                         </label>
                     </div>
+                    <div id="errorDiv" class="erro" style="text-align: center; font-size: 1.4em; background-color: rgb(150, 0, 0);"></div>
                     <input type="submit" value="Enviar" class="submit-button" id="submit">
                 </form>
 
