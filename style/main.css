@@ -264,7 +264,7 @@ body {
     font-size: 1.1em;
 }
 .label-div input, .label-div textarea {
-    min-width: 100%;
+    width: 100%;
     outline: none;
     padding-left: 10px;
     border-radius: 10px;
@@ -400,6 +400,20 @@ body {
         padding: 7px 0 7px;
         position: fixed;
         width: 100%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .label-div input, .label-div textarea {
+        width: 50vw;
+    }
+
+    .label-div input#phoneInput {
+        width: 30vw;
     }
 
     .header a {
