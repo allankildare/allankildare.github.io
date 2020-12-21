@@ -249,17 +249,20 @@ body {
     font-size: 1.2em;
 }
 
-/* formulario
+/* formulario */
 .label-div {
     display: flex;
     flex-direction: column;
 }
 
 .label-div label {
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin: 10px 0 3px 0;
 }
 
+.label-div label input {
+    font-size: 1.1em;
+}
 .label-div input, .label-div textarea {
     min-width: 100%;
     outline: none;
@@ -286,10 +289,12 @@ body {
 
 .label-div textarea {
     padding-top: 10px;
+    font-size: 1em;
 }
 
 .contact .submit-button {
     margin: 10px 0 5px 0;
+    outline: none;
     padding: 15px 0;
     font-size: 1.4em;
     text-transform: uppercase;
@@ -299,7 +304,6 @@ body {
     border: none;
     border-radius: 10px;
 }
-*/
 
 /* footer */
 .footer {
