@@ -38,7 +38,6 @@ body {
 
 .logo img {
     width: 90px;
-    margin-left: 15px;
 }
 
 /* intro */
@@ -339,6 +338,10 @@ body {
 @media (min-width: 1024px) {
     .mobile-header {
         display: none;
+    }
+
+    .logo img {
+        margin-right: 15px;
     }
 
     .about-me {
