@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <script src="https://kit.fontawesome.com/ea399319a5.js" crossorigin="anonymous"></script>
+    
+    <script src="./script/app.js" type="text/javascript" defer></script>
     <script src="./script/formValidation.js" type="text/javascript" defer></script>
+
 
     <link rel="stylesheet" href="./style/main.css">
     <title>Allan Kildare - Portfólio</title>
@@ -19,9 +22,11 @@
                 <img src="./images/logo.png" alt="Logotipo">
             </div>
             <nav class="navigation">
-                <a href="#">Sobre mim</a>
-                <a href="#">Projetos</a>
-                <a href="#">Contato</a>
+                <a href="#about-me">Sobre mim</a>
+                <!-- <a href="#">Projetos</a> -->
+                <a href="#skills">Habilidades</a>
+                <a href="#education">Educação</a>
+                <a href="#contact">Contato</a>
             </nav>
         </header>
 
@@ -42,7 +47,7 @@
                 </div>
             </div>
             <!-- about me section -->
-            <section class="about-me">
+            <section class="about-me" id="about-me">
                 <div class="profile-photo">
                     <img src="https://avatars3.githubusercontent.com/u/50001206?s=460&u=8194e2477b75429a95469c3df3544fefb5709e2a&v=4" alt="Foto de Allan Kildare">
                 </div>
@@ -79,7 +84,7 @@
             </section>
 
             <!-- skills section -->
-            <section class="skills">
+            <section class="skills" id="skills">
                 <h2 class="section-title">Habilidades</h2>
                 <div class="skill-boxes">
                     <div class="skill-box">
@@ -118,7 +123,7 @@
             </section>
 
             <!-- education section -->
-            <section class="education">
+            <section class="education" id="education">
                 <h2 class="section-title">Educação</h2>
                 <div class="phrase">
                     <p>"Educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo."</p>
@@ -186,7 +191,7 @@
                 </div>
             </section>
             <!-- contact -->
-            <section class="contact">
+            <section class="contact" id="contact">
                 <h2 class="section-title">Entre em contato</h2>
                 <p>Quer conversar comigo? Mande uma mensagem e responderei o mais rápido possível</p>
 
