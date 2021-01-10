@@ -120,6 +120,36 @@ body {
     font-size: 1.8em;
 }
 
+.resume {
+    display: flex;
+    justify-content: center;
+}
+.download {
+    margin: 0 auto;
+}
+.download, .download:visited {
+    height: auto;
+    font-weight: 500;
+    font-size: 2em;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2.4px solid var(--color-nav-links);
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.download:hover {
+    transition: .6s;
+    background-color: #F5F5F5;
+    color: #010101;
+}
+
+.download:active {
+    background-color: #F5F5F5;
+    color: rgb(33, 77, 224);
+}
+
 .social-media a {
     font-size: 36px;
 }
