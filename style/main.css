@@ -3,7 +3,7 @@
     --color-background: rgb(28, 28, 28);
     --color-header: #000000;
     --color-nav-links: #F5F5F5;
-    --color-nav-links-hover: #e0e0e0;
+    --color-nav-links-hover: rgb(184, 139, 44);
     --color-presentation:rgba(14, 14, 14, .6);
     --orange-text: rgb(219, 167, 54);
     --section-padding-top: 75px;
@@ -429,13 +429,12 @@ body {
         margin-right: 15px;
     }
 
-    .header a:nth-child(3n) {
+    .header a:nth-child(4) {
         margin-right: 35px;
     }
 
     .header a:hover {
-        transition: 0.2s;
+        transition: .3s;
         color: var(--color-nav-links-hover);
-        text-decoration: underline;
     }
 }
