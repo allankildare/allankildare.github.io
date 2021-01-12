@@ -435,6 +435,7 @@ body {
         padding: 7px 0 7px;
         position: fixed;
         width: 100%;
+        z-index: 50;
     }
 
     .contact {
