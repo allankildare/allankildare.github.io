@@ -1,5 +1,5 @@
-:root { /* Se refere a um elemento raiz do HTML inteiro */
-    /* Variáveis CSS */
+:root {
+    /* CSS Variables */
     --color-background: rgb(28, 28, 28);
     --color-header: #000000;
     --color-nav-links: #F5F5F5;
@@ -205,6 +205,11 @@ body {
 .skill-box h3 {
     font-size: 1.6em;
     font-weight: 600;
+}
+
+/* projects section */
+.projects h2{
+    padding-top: var(--section-padding-top);
 }
 
 /* education section */
