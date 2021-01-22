@@ -2,7 +2,7 @@
     /* CSS Variables */
     --color-background: rgb(28, 28, 28);
     --color-header: #000000;
-    --color-nav-links: #F5F5F5;
+    --color-nav-links: rgb(228, 228, 228);
     --color-nav-links-hover: rgb(184, 139, 44);
     --color-presentation:rgba(14, 14, 14, .6);
     --orange-text: rgb(219, 167, 54);
@@ -23,17 +23,6 @@
 body {
     background-color: var(--color-background);
     color: #F2F2F2;
-}
-
-.header {
-    display: none;
-}
-
-.mobile-header nav {
-    display: flex;
-    justify-content: center;
-    background: rgb(15,15,15);
-    padding: 2px 0 2px 0;
 }
 
 .logo img {
@@ -372,10 +361,6 @@ body {
 
 /* desktop version */
 @media (min-width: 1024px) {
-    .mobile-header {
-        display: none;
-    }
-
     .logo img {
         margin-right: 15px;
     }
@@ -430,19 +415,6 @@ body {
         padding-top: 50px;
     }
 
-    /* header */
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        background-color: rgb(15, 15, 15);
-        padding: 7px 0 7px;
-        position: fixed;
-        width: 100%;
-        z-index: 50;
-    }
-
     .contact {
         display: flex;
         flex-direction: column;
@@ -455,23 +427,5 @@ body {
 
     .label-div input#phoneInput {
         width: 30vw;
-    }
-
-    .header a {
-        font-size: 1.8em;
-        font-weight: 500;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: var(--color-nav-links);
-        margin-right: 15px;
-    }
-
-    .header a:nth-child(4) {
-        margin-right: 35px;
-    }
-
-    .header a:hover {
-        transition: .3s;
-        color: var(--color-nav-links-hover);
     }
 }
