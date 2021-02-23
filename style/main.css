@@ -282,12 +282,13 @@ body {
 
 .label-div label {
     font-size: 1.6em;
-    margin: 10px 0 3px 0;
+    margin: 13px 0 7px 0;
 }
 
 .label-div label input {
     font-size: 1.1em;
 }
+
 .label-div input, .label-div textarea {
     width: 100%;
     outline: none;

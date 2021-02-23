@@ -10,7 +10,7 @@
     <script src="./script/formValidation.js" type="text/javascript" defer></script>
     
 
-    <link rel="stylesheet" href="./style/main.min.css">
+    <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/responsive-menu.css">
     <link rel="stylesheet" type="text/css" href="./glider/glider.min.css">
     <title>Allan Kildare - Portfólio</title>
@@ -247,31 +247,23 @@
                 <!-- this form use Formspree, a way to send emails from static websites -->
                 <form action="https://formspree.io/f/xzbkkzkp" method="POST">
                     <div class="label-div">
-                        <label for="name">Nome
-                            <br>
-                            <input type="text" name="name" id="nameInput" placeholder="Seu nome" title="Preencha aqui seu nome">
-                        </label>
+                        <label for="nameInput">Nome</label>
+                        <input type="text" name="name" id="nameInput" placeholder="Seu nome" title="Preencha aqui seu nome">
                     </div>
 
                     <div class="label-div">
-                        <label for="email">E-mail
-                            <br>
-                            <input type="email" name="email" id="emailInput" placeholder="Seu e-mail" title="Preencha aqui seu e-mail">
-                        </label>
+                        <label for="emailInput">E-mail</label>
+                        <input type="email" name="email" id="emailInput" placeholder="Seu e-mail" title="Preencha aqui seu e-mail">
                     </div>
 
                     <div class="label-div">
-                        <label for="phone">Telefone ou celular
-                            <br>
-                            <input type="text" name="phone" id="phoneInput" placeholder="(DDD) + número" title="Preencha aqui seu número de telefone ou celular">
-                        </label>
+                        <label for="phoneInput">Telefone ou celular</label>
+                        <input type="text" name="phone" id="phoneInput" placeholder="(DDD) + número" title="Preencha aqui seu número de telefone ou celular">
                     </div>
 
                     <div class="label-div">
-                        <label for="message">Sua mensagem
-                            <br>
-                            <textarea name="message" id="messageArea" cols="30" rows="10" title="Preencha aqui a mensagem que deseja enviar"></textarea>
-                        </label>
+                        <label for="messageArea">Sua mensagem</label>
+                        <textarea name="message" id="messageArea" cols="30" rows="10" title="Preencha aqui a mensagem que deseja enviar"></textarea>
                     </div>
                     <div id="errorDiv" class="erro"></div>
                     <input type="submit" value="Enviar" class="submit-button" id="submit">
