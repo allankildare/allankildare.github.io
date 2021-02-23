@@ -294,7 +294,7 @@ body {
     outline: none;
     padding-left: 10px;
     border-radius: 10px;
-    border: 2px solid var(--orange-text);
+    border: .13em solid var(--orange-text);
     background-color: transparent;
     font-size: 1.6em;
     color: #F2F2F2;
@@ -302,10 +302,6 @@ body {
 
 .label-div input {
     height: 40px;
-}
-
-.label-div input::placeholder {
-    color: #c5c5c5;
 }
 
 .label-div input:focus, .label-div textarea:focus {
