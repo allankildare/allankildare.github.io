@@ -138,7 +138,6 @@ body {
 }
 
 .download:active {
-    background-color: #F5F5F5;
     color: rgb(33, 77, 224);
 }
 
