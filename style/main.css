@@ -25,6 +25,10 @@ body {
     color: #F2F2F2;
 }
 
+a, a:visited {
+    color: #F2F2F2;
+}
+
 .logo img {
     width: 90px;
 }
