@@ -112,6 +112,7 @@ a, a:visited {
 .text p {
     letter-spacing: 1.6px;
     font-size: 1.8em;
+    margin-bottom: 1em;
 }
 
 .resume {
@@ -388,7 +389,6 @@ a, a:visited {
 
     .academic-education {
         margin: 0 35px 0 35px;
-        /* padding: 0 35px 0 35px; */
         display: flex;
     }
 
