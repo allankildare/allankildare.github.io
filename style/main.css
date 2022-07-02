@@ -203,13 +203,18 @@ a, a:visited {
     font-weight: 600;
 }
 
+/* experience section */
+.experiences div h4 {
+    padding-top: 10px;
+}
+
 /* projects section */
 .projects h2{
     padding-top: var(--section-padding-top);
 }
 
 /* education section */
-.education {
+.education, .experiences {
     padding: 20px 20px 0 20px;
 }
 
@@ -232,16 +237,16 @@ a, a:visited {
     border-bottom: 1px solid var(--orange-text);
     margin-bottom: 5px;
 }
-.academic-education div h4 {
+.academic-education div h4, .experiences div h4 {
     font-size: 1.8em;
 }
 
-.academic-education div span {
+.academic-education div span, .experiences div span {
     font-size: 1.4em;
     font-style: italic;
 }
 
-.academic-education div p {
+.academic-education > div > p, .experiences > div > p {
     font-size: 1.6em;
     padding-top: 3px;
 }
@@ -387,12 +392,16 @@ a, a:visited {
         font-size: 3.2em;
     }
 
-    .academic-education {
+    .experiences {
+        justify-content: center;
+    }
+
+    .academic-education, .experiences {
         margin: 0 35px 0 35px;
         display: flex;
     }
 
-    .academic-education div {
+    .academic-education > div, .experiences > div {
         width: 30vw;
         margin: 0 10px 0 10px;
         padding: 0 10px 10px 10px;
@@ -415,7 +424,7 @@ a, a:visited {
         width: 20vw;
     }
 
-    .skills h2, .education h2 {
+    .skills h2, .education h2, .experience h2 {
         padding-top: 50px;
     }
 
