@@ -6,7 +6,9 @@
     --color-nav-links-hover: rgb(184, 139, 44);
     --color-presentation:rgba(14, 14, 14, .6);
     --orange-text: rgb(219, 167, 54);
+    --dark-gray: rgb(50, 50, 50);
     --section-padding-top: 75px;
+    --default-border-radius: 10px;
 
     font-size: 62.5%; /* 10px */
 }
@@ -23,6 +25,15 @@
 body {
     background-color: var(--color-background);
     color: #F2F2F2;
+}
+
+.container {
+    min-height: 100vh;
+    margin-top: 50px; /* removing space of header */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--orange-text);
 }
 
 a, a:visited {
