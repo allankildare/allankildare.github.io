@@ -1,0 +1,65 @@
+.projects-cards {
+    padding: 3.2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-cards > div {
+    width: 300px;
+    overflow: hidden;
+    border-radius: var(--default-border-radius);
+    background-color: var(--dark-gray);
+    margin-bottom: 1.6em;
+}
+
+.projects-cards > div:last-child {
+    margin-bottom: 0;
+}
+
+.projects-cards > div > img {
+    width: 300px;
+}
+
+.projects-cards > div > .info {
+    padding: 0 1.6em 1.6em;
+}
+
+.projects-cards > div > .info .title {
+    line-height: 1.8;
+}
+
+.projects-cards > div > .info p,
+.projects-cards > div > .info a {
+    font-size: 1.4em;
+}
+
+.projects-cards > div > .info p {
+    line-height: 1.4;
+    margin-bottom: .2em;
+}
+
+.projects-cards > div > .info p.resume {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    height: 59px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.projects-cards > div > .info p.language {
+    font-weight: 600;
+}
+
+.projects-cards > div > .info > a {
+    display: block;
+}
+
+.projects-cards > div > .info > a {
+    margin-bottom: .4em;
+}
+
+.projects-cards > div > .info > a:last-child {
+    margin-bottom: 0;
+}
