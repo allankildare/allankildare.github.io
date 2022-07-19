@@ -12,12 +12,11 @@
     margin-bottom: 1.6em;
 }
 
-.projects-cards > div:last-child {
-    margin-bottom: 0;
-}
-
 .projects-cards > div > img {
     width: 300px;
+    height: 180px;
+    object-fit: 50% 50%;
+    object-position: center;
 }
 
 .projects-cards > div > .info {
@@ -62,4 +61,11 @@
 
 .projects-cards > div > .info > a:last-child {
     margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .projects-cards {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
