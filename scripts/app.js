@@ -1,4 +1,4 @@
-$('nav a, a.expand-more').click(function (e) {
+$('.navbar .section-link > a, a.expand-more').click(function (e) {
   e.preventDefault()
   var id = $(this).attr('href')
   if (id.includes('#')) targetOffset = $(id).offset().top
