@@ -1,7 +1,7 @@
 .main-menu {
   width: 100%;
   background-color: var(--darker-gray);
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 999;
