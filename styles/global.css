@@ -34,11 +34,12 @@ a:visited {
 }
 
 section {
-  padding: 16px 32px;
+  padding: 80px 32px 40px;
   max-width: var(--default-desktop-screen-width);
   margin: 0 auto;
   padding-top: 80px;
   font-size: var(--default-text-size);
+  font-size: clamp(var(--default-text-size), 24px, 1.75rem);
 }
 
 section h2,
@@ -61,9 +62,10 @@ p {
 
 .section-title {
   color: var(--purple-text);
-}
-
-@font-face {
-  font-family: 'Droid Sans Mono';
-  src: url(./../assets/fonts/droid-sans-mono/DroidSansMono.ttf);
+  font-family: 'Cabinet Grotesk';
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 64px;
+  font-size: clamp(56px, 4rem, 12vw);
+  letter-spacing: 2px;
 }
