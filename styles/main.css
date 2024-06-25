@@ -16,19 +16,22 @@
   text-align: center;
 }
 
-.presentation h1 {
-  font-weight: 400;
+.presentation .name {
+  font-weight: 800;
   font-size: 40px;
+  color: #f3f3f3;
+}
+
+.presentation .position {
+  font-weight: 400;
+  font-size: 24px;
   text-wrap: balance;
+  font-weight: 500;
+  color: var(--purple-text);
 }
 
 .presentation h1:last-of-type {
   margin-bottom: 8px;
-}
-
-.presentation h1 strong {
-  font-weight: 600;
-  color: var(--purple-text);
 }
 
 .presentation h2 {
