@@ -185,13 +185,19 @@
 .work-timeline h2 {
   font-size: 20px;
   color: var(--defaul-text-color);
+  line-height: 1.5;
 }
 
 .work-time, .work-location {
-  font-size: 16px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  font-weight: 600;
+  font-size: 0.75rem;
 }
 
 .work-time {
+  color: #d3d3d3;
   flex-shrink: 0;
   width: fit-content;
   min-width: 180px;
@@ -210,6 +216,22 @@
 .work-timeline > li {
   padding-bottom: 1.5rem;
   position: relative;
+}
+
+.stack {
+  padding: 8px 0;
+}
+
+.stack > span {
+  background-color: #444444;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
 }
 
 /* footer */
