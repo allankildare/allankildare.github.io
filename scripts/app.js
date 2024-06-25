@@ -10,3 +10,16 @@ $('.navbar .section-link > a, a.expand-more').click(function (e) {
     600
   )
 })
+
+$(document).ready(function() {
+  const $mainMenu = $('.main-menu');
+  const scrollThreshold = 50; 
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > scrollThreshold) {
+      $mainMenu.addClass('scrolled');
+    } else {
+      $mainMenu.removeClass('scrolled');
+    }
+  });
+});
