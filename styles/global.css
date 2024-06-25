@@ -46,7 +46,7 @@ section {
   margin: 0 auto;
   padding-top: 80px;
   font-size: var(--default-text-size);
-  font-size: clamp(var(--default-text-size), 24px, 1.75rem);
+  font-size: clamp(1rem, 0.175vw + 0.965rem, 1.25rem);
 }
 
 section h2,
