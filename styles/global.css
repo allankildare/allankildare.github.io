@@ -6,13 +6,16 @@
   --color-nav-links-hover: rgb(146, 49, 206);
   --nav-links-font-size: 18px;
   --purple-text: rgb(185, 105, 234);
+  --default-text-color: #f2f2f2;
   --blue-heading: #3192b9;
   --light-text: #d2d2d2;
   --dark-gray: rgb(50, 50, 50);
   --darker-gray: rgb(15, 15, 15);
+  --light-gray: rgb(182, 182, 182);
   --default-border-radius: 10px;
   --default-desktop-screen-width: 1440px;
   --default-text-size: 20px;
+
 
   font-family: 'Work sans', sans-serif;
 }
@@ -25,7 +28,7 @@
 
 body {
   background-color: var(--background-color);
-  color: #f2f2f2;
+  color: var(--default-text-color);
 }
 
 a,

@@ -129,7 +129,6 @@
   display: flex;
   align-items: flex-end;
   gap: 8px;
-  /* margin-bottom: 8px; */
   margin: 0 auto 8px;
   box-shadow: 0px 0px 11px 0px rgba(185, 185, 185, 0.1);
   -webkit-box-shadow: 0px 0px 11px 0px rgba(185, 185, 185, 0.1);
@@ -153,6 +152,62 @@
 
 .skills-list h4 {
   color: #469615;
+}
+
+/* work experience */
+.work-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem 1rem;
+  flex-wrap: wrap;
+}
+
+.work-timeline {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  color: var(--defaul-text-color);
+  margin-top: 16px;
+}
+
+.work-content {
+  margin-top: -8px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 500px;
+  min-width: 500px;
+}
+
+.work-timeline h2 {
+  font-size: 20px;
+  color: var(--defaul-text-color);
+}
+
+.work-time, .work-location {
+  font-size: 16px;
+}
+
+.work-time {
+  flex-shrink: 0;
+  width: fit-content;
+  min-width: 180px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  white-space: nowrap;
+}
+.work-location {
+  margin-bottom: 8px;
+}
+.work-summary {
+  font-size: 18px;
+}
+
+.work-timeline > li {
+  padding-bottom: 1.5rem;
+  position: relative;
 }
 
 /* footer */
