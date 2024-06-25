@@ -13,7 +13,7 @@
   --darker-gray: rgb(15, 15, 15);
   --light-gray: rgb(182, 182, 182);
   --default-border-radius: 10px;
-  --default-desktop-screen-width: 1440px;
+  --default-desktop-screen-width: 1280px;
   --default-text-size: 20px;
 
 
@@ -72,7 +72,7 @@ p {
   font-family: 'Cabinet Grotesk';
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 64px;
-  font-size: clamp(56px, 4rem, 12vw);
+  font-size: 52px;
+  font-size: clamp(3.25rem, 0.526vw + 3.145rem, 4rem);
   letter-spacing: 2px;
 }
