@@ -263,6 +263,26 @@
   margin-bottom: 4px;
 }
 
+/* credits */
+.credits {
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+
+.credits > b {
+  font-weight: 600;
+}
+
+.credits a {
+  text-decoration: none;
+  font-weight: 600;
+  transition: color ease-in-out 0.3s;
+}
+
+.credits a:hover {
+  color: var(--purple-text);
+}
+
 /* footer */
 .footer {
   position: absolute;
@@ -280,8 +300,9 @@
   font-size: 16px;
 }
 
-.fa-heart {
-  color: rgb(240, 25, 25);
+.heart {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .footer-text a,
