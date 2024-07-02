@@ -28,9 +28,6 @@
   text-wrap: balance;
   font-weight: 500;
   color: var(--purple-text);
-}
-
-.presentation h1:last-of-type {
   margin-bottom: 8px;
 }
 
@@ -40,7 +37,7 @@
   letter-spacing: 3px;
 }
 
-.presentation h2 {
+.presentation .slogan {
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 3px;
@@ -182,11 +179,21 @@
   flex-basis: 500px;
 }
 
-.work-timeline h2 {
+.work-timeline .position {
   font-size: 20px;
   color: var(--defaul-text-color);
   margin-bottom: .25rem;
   line-height: 1.2;
+}
+
+.work-timeline .position img {
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.3s ease-in-out;
+}
+
+.work-timeline a:hover img {
+  transform: translate(2px, -2px);
 }
 
 .work-timeline a {
