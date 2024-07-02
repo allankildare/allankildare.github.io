@@ -17,11 +17,8 @@
   --default-text-size: 20px;
 
 
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
 }
 
 * {
@@ -69,10 +66,14 @@ p {
 
 .section-title {
   color: var(--purple-text);
-  font-family: 'Cabinet Grotesk';
+  font-family: 'Cabinet Grotesk', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 52px;
   font-size: clamp(3.25rem, 0.526vw + 3.145rem, 4rem);
   letter-spacing: 2px;
+}
+
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
 }
