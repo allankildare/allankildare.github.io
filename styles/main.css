@@ -180,7 +180,8 @@
 }
 
 .work-timeline .position {
-  font-size: 20px;
+  font-size: 18px;
+  font-size: clamp(1.125rem, 0.208vw + 1.083rem, 1.25rem);
   color: var(--defaul-text-color);
   margin-bottom: .25rem;
   line-height: 1.2;
