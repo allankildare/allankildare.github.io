@@ -78,6 +78,11 @@
   transition: 0.5s ease;
 }
 
+.main-menu .menu li:last-child {
+  margin-top: auto;
+  display: none;
+}
+
 .main-menu .menu li a:hover {
   color: var(--color-nav-links-hover);
 }
@@ -106,11 +111,15 @@
     flex-direction: column;
     width: 100%;
     max-width: 250px;
-    padding: 100px 20px;
+    padding: 100px 20px 2rem;
     transition: 0.6s ease;
   }
 
   .main-menu .menu.active {
     right: -100%;
+  }
+
+  .main-menu .menu li:last-child {
+    display: flex;
   }
 }
