@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8" />
@@ -11,29 +11,29 @@
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <link href="https://api.fontshare.com/v2/css?f%5B%5D=cabinet-grotesk@400,500,700,800,900&display=swap"
     rel="stylesheet" />
-  <meta property="og:locale" content="en_US">
-  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="Allan Kildare">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://allankildare.github.io">
-  <meta property="og:title" content="Allan Kildare Portfolio Website">
+  <meta property="og:title" content="Portfólio - Allan Kildare">
   <meta property="og:description"
     content="Allan Kildare is a software engineer who builds delightful, accessible and testable web applications.">
   <meta name="description"
     content="Allan Kildare is a software engineer who builds delightful, accessible and testable web applications.">
   <meta name="keywords" content="software engineer, frontend, developer, dev, ufrj, javascript, react, instructor">
-  <link rel="icon" href="./assets/favicon/favicon32.png" sizes="32x32">
-  <link rel="icon" href="./assets/favicon/favicon16.png" sizes="16x16">
-  <link rel="icon" href="./assets/favicon/favicon64.png" sizes="64x64">
+  <link rel="icon" href="./../assets/favicon/favicon32.png" sizes="32x32">
+  <link rel="icon" href="./../assets/favicon/favicon16.png" sizes="16x16">
+  <link rel="icon" href="./../assets/favicon/favicon64.png" sizes="64x64">
   <!-- styles -->
-  <link rel="stylesheet" href="./styles/global.min.css" />
-  <link rel="stylesheet" href="./styles/main.min.css" />
-  <link rel="stylesheet" href="./styles/responsive-menu.min.css" />
+  <link rel="stylesheet" href="./../styles/global.min.css" />
+  <link rel="stylesheet" href="./../styles/main.min.css" />
+  <link rel="stylesheet" href="./../styles/responsive-menu.min.css" />
   <!-- scripts -->
-  <script src="./scripts/jquery-3.7.1.min.js" type="text/javascript" defer></script>
-  <script src="./scripts/responsiveMenu.js" type="text/javascript" defer></script>
-  <script src="./scripts/languageSelector.js" type="text/javascript" defer></script>
-  <script src="./scripts/app.js" type="text/javascript" defer></script>
+  <script src="./../scripts/jquery-3.7.1.min.js" type="text/javascript" defer></script>
+  <script src="./../scripts/responsiveMenu.js" type="text/javascript" defer></script>
+  <script src="./../scripts/languageSelector.js" type="text/javascript" defer></script>
+  <script src="./../scripts/app.js" type="text/javascript" defer></script>
 </head>
 
 <body>
@@ -41,50 +41,18 @@
     <header class="main-menu">
       <nav class="navbar">
         <div class="logo">
-          <img src="./assets/logos/logo.png" alt="Allan Kildare logotype" />
+          <img src="./../assets/logos/logo.png" alt="Logotipo Allan Kildare" />
         </div>
         <div class="burger-icon active"></div>
         <ul class="menu active">
           <li class="section-link">
-            <a href="#about-me">About me</a>
+            <a href="#about-me">Sobre mim</a>
           </li>
           <!-- <li class="section-link">
               <a href="#skills">Skills</a>
             </li> -->
           <li class="section-link">
-            <a href="#experience">Experience</a>
-          </li>
-          <li class="language-switcher" aria-label="Language selector">
-            <button
-              id="lang-toggle"
-              class="dropdown-toggle"
-              aria-haspopup="listbox"
-              aria-expanded="false"
-              aria-controls="lang-menu"
-            >
-              <img src="./assets/icons/usa.png" alt="" role="presentation" />
-              <span class="lang-label">English</span>
-            </button>
-        
-            <ul
-              id="lang-menu"
-              class="dropdown-menu hidden"
-              role="listbox"
-              aria-labelledby="lang-toggle"
-            >
-              <li role="option">
-                <a href="/index.html" lang="en" hreflang="en-US">
-                  <img src="./assets/icons/usa.png" alt="" role="presentation" />
-                  <span>English</span>
-                </a>
-              </li>
-              <li role="option">
-                <a href="/pt/index.html" lang="pt" hreflang="pt-BR">
-                  <img src="./assets/icons/brasil.png" alt="" role="presentation" />
-                  <span>Português</span>
-                </a>
-              </li>
-            </ul>
+            <a href="#experience">Experiência</a>
           </li>
           <!-- <li>
               <a href="./projects.html">Projects</a>
@@ -95,19 +63,42 @@
             <li>
               <a href="#contact">Contact</a>
             </li> -->
+          <li class="language-switcher" aria-label="Language selector">
+            <button id="lang-toggle" class="dropdown-toggle" aria-haspopup="listbox" aria-expanded="false"
+              aria-controls="lang-menu">
+              <img src="./../assets/icons/brasil.png" alt="" role="presentation" />
+              <span class="lang-label">Português</span>
+            </button>
+
+            <ul id="lang-menu" class="dropdown-menu hidden" role="listbox" aria-labelledby="lang-toggle">
+              <li role="option">
+                <a href="/index.html" lang="en" hreflang="en-US">
+                  <img src="./../assets/icons/usa.png" alt="" role="presentation" />
+                  <span>English</span>
+                </a>
+              </li>
+              <li role="option">
+                <a href="/pt/index.html" lang="pt" hreflang="pt-BR">
+                  <img src="./../assets/icons/brasil.png" alt="" role="presentation" />
+                  <span>Português</span>
+                </a>
+              </li>
+            </ul>
+          </li>
           <li>
             <a href="https://www.linkedin.com/in/allankildare/" target="_blank" rel="noopener noreferrer"
-              title="Allan Kildare's LinkedIn profile">
-              <img src="./assets/icons/linkedin.svg" alt="LinkedIn logo">
+              title="Perfil do Linkedin de Allan Kildare">
+              <img src="./../assets/icons/linkedin.svg" alt="Logo LinkedIn">
             </a>
 
             <a href="https://www.github.com/allankildare/" target="_blank" rel="noopener noreferrer"
               title="Allan Kildare's Github profile">
-              <img src="./assets/icons/github.svg" alt="Github logo">
+              <img src="./../assets/icons/github.svg" alt="Logo Github">
             </a>
           </li>
         </ul>
       </nav>
+
 
     </header>
 
@@ -115,31 +106,31 @@
       <section class="hello-world">
         <div class="presentation">
           <h1 class="name">Allan Kildare</h1>
-          <h2 class="position">Frontend Engineer</h2>
+          <h2 class="position">Desenvolvedor Front-end</h2>
           <h3 class="slogan">
-            I create delightful, accessible<br>and testable
-            <b>web applications</b>
+            Desenvolvo <b>aplicações web</b><br>
+            elegantes, acessíveis e testáveis
           </h3>
           <div class="social-media">
             <a href="https://www.linkedin.com/in/allankildare/" target="_blank" rel="noopener noreferrer"
-              title="Allan Kildare's LinkedIn profile">
-              <img src="./assets/icons/linkedin.svg" alt="LinkedIn logo">
+              title="Perfil do Linkedin de Allan Kildare">
+              <img src="./../assets/icons/linkedin.svg" alt="LinkedIn logo">
             </a>
 
             <a href="https://www.github.com/allankildare/" target="_blank" rel="noopener noreferrer"
-              title="Allan Kildare's Github profile">
-              <img src="./assets/icons/github.svg" alt="Github logo">
+              title="Perfil do Github de Allan Kildare">
+              <img src="./../assets/icons/github.svg" alt="Github logo">
             </a>
           </div>
 
           <a href="#about-me" class="expand-more">
-            <img src="./assets/icons/expand_more.svg" alt="See more about Allan" title="See more" />
+            <img src="./../assets/icons/expand_more.svg" alt="Veja mais sobre Allan" title="See more" />
           </a>
         </div>
       </section>
 
       <section class="page-section about-me" id="about-me">
-        <h2 class="section-title">About me</h2>
+        <h2 class="section-title">Sobre mim</h2>
 
         <div class="profile-photo">
           <img src="https://github.com/allankildare.png"
@@ -147,52 +138,48 @@
         </div>
 
         <div class="text">
-          <p>Hi, I'm Allan Kildare from Brasil 🇧🇷</p>
+          <p>Olá, me chamo Allan Kildare</p>
           <p>
-            I'm a <b>Frontend Engineer</b> with four years of professional
-            experience.<br>
-            I've had the opportunity to work on <em>large-scale</em>,
-            <em>user-focused</em> and <em>testable</em> web applications. Learning various technologies and worked with
-            different frameworks
-            in the market, while also developing competencies required by both
-            my job and self-taught studies.
+            <b>Desenvolvedor front-end</b> com quatro anos de carreira bem consolidados.<br>
+            Nesse tempo, tive a oportunidade de trabalhar em aplicações web de <em>larga escala</em>,
+            <em>focadas no usuário</em> e <em>testáveis</em>. Aprendendo várias tecnologias e trabalhando com
+            diferentes frameworks do mercado, enquanto desenvolvia competências para o mercado de trabalho e
+            estudos acadêmicos.
           </p>
           <p>
-            Currently, I am pursuing a degree in <strong>Computer Science</strong> at the Federal University of Rio de
-            Janeiro, where I have spent the past five years deepening my understanding of computational logic and
-            algorithms.
+            Atualmente curso <strong>Ciência da Computação</strong> na Universidade Federal do Rio de
+            Janeiro, onde passei os últimos quatro anos me aprofundando meu conhecimento na área
+            científica, com foco em lógica computacional e algoritmos.
           </p>
           <p>
-            I'm also a <strong>speaker</strong> and I like to share my
-            knowledge as educator too, the education was what empowered me and
-            I believe in its transformative power.<br>
-            In my spare time, I enjoy bicycling, skateboarding, exploring the
-            city, and hanging out with my friends.
+            Também sou <strong>palestrante</strong> e gosto de compartilhar o conhecimento
+            como educador. A educação me empoderou e eu acredito no seu poder transformador.<br>
+            No meu tempo livre gosto de pedalar, andar de skate, viajar e sair com meus amigos.
           </p>
         </div>
       </section>
 
       <section id="experience">
-        <h2 class="section-title">Experience</h2>
+        <h2 class="section-title">Experiência</h2>
         <ul class="work-timeline">
           <li>
             <div class="work-wrapper">
-              <header class="work-time" aria-label="Working at Opeaz since April 2025">
-                <span>April 2025 — Present</span>
+              <header class="work-time" aria-label="Trabalhando na Opeaz desde abril de 2025">
+                <span>Abr 2025 — o momento</span>
               </header>
               <div class="work-content">
-                <h3 class="position" aria-label="Frontend Developer at Opeaz">
-                  Frontend Developer ·
+                <h3 class="position" aria-label="Desenvolvedor Front-end na Opeaz">
+                  Desenvolvedor Front-end ·
                   <a href="https://opeaz.fr" target="_blank" rel="noopener noreferrer">
                     Opeaz
-                    <img src="./assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
+                    <img src="./../assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
                   </a>
                 </h3>
-                <p class="work-location">Saint Mandé, France · Remote</p>
+                <p class="work-location">Saint Mandé, França · Remoto</p>
                 <p class="work-summary">
-                  Rejoined the team to support ongoing product development through bug resolution, feature enhancements,
-                  and performance improvements. Contributing to code quality, user experience, and team velocity while
-                  onboarding into the current tech stack.
+                  Retornei à equipe para apoiar o desenvolvimento contínuo do produto, atuando na correção de bugs,
+                  melhorias de funcionalidades e otimizações de performance. Contribuindo para a qualidade do código,
+                  experiência do usuário e velocidade do time enquanto me integrava à stack atual.
                 </p>
                 <div class="stack">
                   <span>TypeScript</span>
@@ -206,24 +193,22 @@
           </li>
           <li>
             <div class="work-wrapper">
-              <header class="work-time" aria-label="June 2024 to April 2025">
-                <span>Jun 2024 — Apr 2025</span>
+              <header class="work-time" aria-label="Junho de 2024 a abril de 2025">
+                <span>Jun 2024 — Abr 2025</span>
               </header>
               <div class="work-content">
                 <h3 class="position" aria-label="Fullstack Engineer at Mira">
                   Fullstack Engineer ·
                   <a href="https://www.talktomira.com/" target="_blank" rel="noopener noreferrer">
                     Mira
-                    <img src="./assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
+                    <img src="./../assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
                   </a>
                 </h3>
-                <p class="work-location">New York, USA · Remote</p>
+                <p class="work-location">New York, EUA · Remoto</p>
                 <p class="work-summary">
-                  I developed a new feature from scratch, implementing GraphQL
-                  requests and integrations to enable payment processing using
-                  Next.js as a fullstack solution. I led the internal code
-                  process documentation and collaborated with multiple teams
-                  in the company.
+                  Desenvolvi uma nova funcionalidade do zero, implementando requisições GraphQL e integrações para
+                  habilitar o processamento de pagamentos utilizando Next.js como solução fullstack. Liderei a
+                  documentação interna dos processos de código e colaborei com múltiplas equipes da empresa.
                 </p>
                 <div class="stack">
                   <span>Next.js</span>
@@ -238,24 +223,22 @@
           <li>
             <div class="work-wrapper">
               <header class="work-time" aria-label="August 2022 to May 2024">
-                <span>Aug 2022 — May 2024</span>
+                <span>Ago 2022 — Mai 2024</span>
               </header>
               <div class="work-content">
                 <h3 class="position" aria-label="Mid-level Frontend Developer at Opeaz">
-                  Mid-level Frontend Developer ·
+                  Desenvolvedor Front-end Pleno ·
                   <a href="https://opeaz.fr" target="_blank" rel="noopener noreferrer">
                     Opeaz
-                    <img src="./assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
+                    <img src="./../assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
                   </a>
                 </h3>
-                <p class="work-location">Saint Mandé, France · Remote</p>
+                <p class="work-location">Saint Mandé, França · Remoto</p>
                 <p class="work-summary">
-                  Spearheaded frontend development for healthcare
-                  applications, focusing on SPAs and advanced web
-                  technologies. Maintained and enhanced existing solutions
-                  while implementing new integrations. Conducted code analyses
-                  and reviews, collaborating cross-functionally to optimize
-                  performance and improve developer experience.
+                  Liderei o desenvolvimento frontend de aplicações para o setor de saúde, com foco em SPAs e tecnologias
+                  web avançadas. Mantive e evoluí soluções existentes, além de implementar novas integrações. Realizei
+                  análises e revisões de código, colaborando com diferentes áreas para otimizar a performance e melhorar
+                  a experiência dos desenvolvedores.
                 </p>
                 <div class="stack">
                   <span>TypeScript</span>
@@ -269,25 +252,23 @@
           </li>
           <li>
             <div class="work-wrapper">
-              <header class="work-time" aria-label="July 2022 to April 2025">
-                <span>Jul 2022 — Apr 2025</span>
+              <header class="work-time" aria-label="Julho de 2022 a Abril de 2025">
+                <span>Jul 2022 — Abr 2025</span>
               </header>
               <div class="work-content">
                 <h3 class="position" aria-label="Web development teacher and tutor at Coderhouse Brasil">
-                  Web Development Teacher and Tutor ·
+                  Professor & Tutor de Desenvolvimento Web ·
                   <a href="https://www.coderhouse.com/br" target="_blank" rel="noopener noreferrer">
                     Coderhouse Brasil
-                    <img src="./assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
+                    <img src="./../assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
                   </a>
                 </h3>
-                <p class="work-location">Rio de Janeiro, Brasil · Remote</p>
+                <p class="work-location">Rio de Janeiro, Brasil · Remoto</p>
                 <p class="work-summary">
-                  I taught foundational web technologies such as HTML, CSS, and
-                  JavaScript at Coderhouse, emphasizing asynchronous
-                  programming and API integration. The curriculum also included
-                  advanced JavaScript concepts, applied in back-end and
-                  front-end contexts, including syntax details, lifecycle
-                  management, state handling, routing, middlewares and database.
+                  Ministrei aulas sobre tecnologias fundamentais da web como HTML, CSS e JavaScript na Coderhouse, com
+                  ênfase em programação assíncrona e integração com APIs. O conteúdo também abordava conceitos avançados
+                  de JavaScript aplicados ao front-end e back-end, incluindo sintaxe moderna, gerenciamento de ciclo de
+                  vida, controle de estado, roteamento, middlewares e banco de dados.
                 </p>
                 <div class="stack">
                   <span>HTML & CSS</span>
@@ -301,22 +282,21 @@
           </li>
           <li>
             <div class="work-wrapper">
-              <header class="work-time" aria-label="May 2021 to May 2022">
-                <span>May 2021 — May 2022</span>
+              <header class="work-time" aria-label="Maio de 2021 a maio de 2022">
+                <span>Mai 2021 — Mai 2022</span>
               </header>
               <div class="work-content">
                 <h3 class="position" aria-label="Junior Frontend Developer at Stone Co">
-                  Junior Frontend Developer ·
+                  Desenvolvedor Front-end Júnior ·
                   <a href="https://www.stone.com.br/" target="_blank" rel="noopener noreferrer">
                     Stone Co
-                    <img src="./assets/icons/arrow-up-right.svg" width="20" alt="Arrow up right icon">
+                    <img src="./../assets/icons/arrow-up-right.svg" width="20" alt="Arrow up right icon">
                   </a>
                 </h3>
-                <p class="work-location">Rio de Janeiro, Brasil · Remote</p>
+                <p class="work-location">Rio de Janeiro, Brasil · Remoto</p>
                 <p class="work-summary">
-                  Built frontend solutions for a banking web application,
-                  helping millions of entrepreneurs manage their businesses
-                  and easily access financial solutions.
+                  Desenvolvi soluções frontend para uma aplicação bancária web, ajudando milhões de empreendedores a
+                  gerenciar seus negócios e acessar soluções financeiras com facilidade.
                 </p>
                 <div class="stack">
                   <span>Next.js</span>
@@ -336,18 +316,17 @@
               </header>
               <div class="work-content">
                 <h3 class="position" aria-label="Tech Facilitator at Resilia">
-                  Tech Facilitator ·
+                  Facilitador Tech ·
                   <a href="https://www.resilia.com.br" target="_blank" rel="noopener noreferrer">
                     Resilia
-                    <img src="./assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
+                    <img src="./../assets/icons/arrow-up-right.svg" alt="Arrow up right icon" width="20">
                   </a>
                 </h3>
-                <p class="work-location">Rio de Janeiro, Brasil · Remote</p>
+                <p class="work-location">Rio de Janeiro, Brasil · Remoto</p>
                 <p class="work-summary">
-                  Taught React.js fundamentals, including classes, functions,
-                  and hooks. Covered essential topics such as components,
-                  props, and state management. Guided students in mastering
-                  custom hooks and popular dependencies.
+                  Ensinei os fundamentos do React.js, incluindo componentes de classe, funções e hooks. Abordei tópicos
+                  essenciais como componentes, props e gerenciamento de estado. Orientei os alunos no domínio de hooks
+                  personalizados e das dependências mais populares da biblioteca.
                 </p>
                 <div class="stack">
                   <span>React</span>
@@ -363,15 +342,16 @@
       <section class="credits">
         <p>
           <span>
-            Built with pure <b>HTML</b>, <b>CSS</b> and <a href="https://jquery.com/" target="_blank"
-              rel="noreferrer noopener">jQuery</a>, deployed with
+            Site construído com <b>HTML</b>, <b>CSS</b> e <a href="https://jquery.com/" target="_blank"
+              rel="noreferrer noopener">jQuery</a>, deploy feito pelo
             <a href="https://pages.github.com/" target="_blank" rel="noreferrer noopener">GitHub Pages</a>.
           </span><br>
-          Text set in <a href="https://rsms.me/inter/" target="_blank" rel="noreferrer noopener">Inter</a> and
+          Text configurado nas fontes <a href="https://rsms.me/inter/" target="_blank"
+            rel="noreferrer noopener">Inter</a> e
           <a href="https://www.fontshare.com/fonts/cabinet-grotesk" target="_blank" rel="noreferrer noopener">
             Cabinet Grostesk
-          </a> typefaces.<br>
-          Icons by <a href="https://icons8.com/" target="_blank" rel="noreferrer noopener">Icons8</a> and <a
+          </a>.<br>
+          Ícones por <a href="https://icons8.com/" target="_blank" rel="noreferrer noopener">Icons8</a> e <a
             href="https://heroicons.com" target="_blank" rel="noreferrer noopener">Heroicons</a>.<br>
         </p>
       </section>
@@ -379,9 +359,9 @@
 
     <footer class="footer">
       <p class="footer-text">
-        Made with
-        <img class="heart" src="./assets/icons/heart.svg" alt="Red heart icon">
-        by
+        Feito com
+        <img class="heart" src="./../assets/icons/heart.svg" alt="Red heart icon">
+        por
         <a href="http://github.com/allankildare" target="_blank" rel="noopener noreferrer">Allan Kildare</a>
       </p>
       <p>2025</p>
