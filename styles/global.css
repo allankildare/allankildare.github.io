@@ -16,7 +16,6 @@
   --default-desktop-screen-width: 1280px;
   --default-text-size: 20px;
 
-
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
 }
@@ -66,7 +65,7 @@ p {
 
 .section-title {
   color: var(--purple-text);
-  font-family: 'Cabinet Grotesk', sans-serif;
+  font-family: 'CabinetGrotesk-Variable', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 52px;
