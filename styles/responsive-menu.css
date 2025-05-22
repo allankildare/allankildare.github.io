@@ -102,14 +102,19 @@
   gap: 0.5em;
   padding: 0.5em 1em;
   color: var(--color-nav-links);
-  min-width: 160px;
+  border: 1px solid var(--light-gray);
+  border-radius: 20px
+}
+
+.dropdown-toggle .globe {
+  display: none;
 }
 
 .dropdown-menu {
   position: absolute;
   top: 100%;
   right: 0;
-  margin: 0;
+  margin: 4px 0 0;
   padding: 0.5em 0;
   list-style: none;
   background-color: #3a3a3a;
@@ -117,7 +122,6 @@
   border-radius: 0.4em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  min-width: 160px;
 }
 
 .dropdown-menu li a {
@@ -183,5 +187,13 @@
 
   .main-menu .menu li:last-child {
     display: flex;
+  }
+
+  .dropdown-toggle .globe {
+    display: inline;
+  }
+
+  .dropdown-toggle .lang-label {
+    display: none;
   }
 }
